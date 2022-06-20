@@ -1,14 +1,36 @@
 html, body {
     margin:0px;
     height:100%;
+    font-family: 'Roboto', sans-serif;
 }
 
-.content {
+/* .content {
     margin: 5px 10%;
     background-color: rgb(248, 249, blue);
     height:100%;
-}
+} */
 
 .index__content_holder { 
     margin-left: 100px;
+}
+
+.layout-header {
+    position: relative;
+    height: 70px;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    box-shadow: 0px 2px 3px rgba(0,0,0,.05);
+}
+
+.logo-wrapper {
+    display: inline;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+
+.logo {
+    padding: 27px 24px 28px 27px;
+    /* display: block; */
+    text-decoration: none;
 }

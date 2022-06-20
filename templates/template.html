@@ -12,12 +12,16 @@
     <title>InnoConvert</title>
 </head>
 <body>
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar bg-light border-bottom shadow-sm mb-3 bg-white rounded">
         <a class="navbar-brand" href="/">
-          InnoConvert
-        </a>
+			<img height="60px" src="static/logo.png" alt="">
+			<img style="margin-left: 50px" height="30px" width="auto" src="static/IU_logo.svg" alt=""/>
+		</a>
+		<h4 style="color: rgb(150, 200, 61)">
+			Convert Word and Xls to PDF
+		</h4>
       </nav>
-    <div class="content bg-light">
+    <div class="content">
         {% block content %}
 
         {% endblock %}
