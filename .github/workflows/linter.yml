@@ -1,3 +1,4 @@
+---
 #################################
 #################################
 ## Super Linter GitHub Actions ##
@@ -15,8 +16,7 @@ name: Lint Code Base
 #############################
 on:
   push:
-    # branches: [master, main]
-    # branches-ignore: [master, main]
+#     branches-ignore: [master, main]
     # Remove the line above to run when pushing to master
   pull_request:
     branches: [master, main]
